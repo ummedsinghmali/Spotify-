@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top:0px;
+
+}
+
+.image-logo {
+    height: 44px;
+
+}
+
+.appName {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+
+
+li button {
+    margin-left: 80px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    background-color: #3c3939;
+    border: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:5px;
+}
+ .artistoption {
+    height:auto;
+    width:auto;
+    position:fixed;
+    top:8px;
+    background-color:rgb(241, 236, 236);
+    color:black;
+    border:1px solid black;
+    padding:10px 15px;
+    margin-left:120px;
+    display:none;
+    font-size: 18px;
+    list-style-type:georgian;
+    line-height: 32px;
+    font-weight: 640;
+    border-radius: 7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    li{
+        list-style-type: none;
+    }
+    .signInLink{
+        color:white;
+        text-decoration: none;
+    }
+    
+/*main*/
+/* .body-container {
+    
+    width: 100%;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+} */
+
+.subbody-container {
+    background-image: url(https://w0.peakpx.com/wallpaper/458/666/HD-wallpaper-best-of-arijit-singh-hindi-bollywood-songs-collection-full-sunil-anand-website-designing-graphics-designing-web-development-in-hisar-haryana.jpg);
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    margin-top:50px;
+    
+}
+
+.songList {
+    height: 400px;
+    width: 400px;
+    line-height: 30px;
+    padding: 20px;
+    margin-left: 7%;
+}
+
+#greatersymbol{
+height:70px;
+position: fixed;
+right: 3%;
+top: 40%;
+cursor: pointer;
+border-radius: 50%;
+color:antiquewhite;
+
+
+}
+
+#lesssymbol{
+    height:62px;
+    position: fixed;
+    left: 3%;
+    top: 40%;
+    cursor: pointer;
+    border-radius: 50%;
+
+    
+    }
+
+
+
+/*footer*/
+.botton-container {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.play-button {
+    margin-left: 45%;
+    cursor: pointer;
+
+
+
+}
+.play-button img{
+    height: 30px;
+    margin:4px;
+}
+
+/* .play-images  {
+    height: 30px;
+    
+}
+.forword-images  {
+    height: 30px;
+    margin:4px;
+}
+.backword-images {
+    height: 30px;
+    
+} */
+.paused-images {
+    height: 30px;
+    
+}
+.runningBar {
+    width: 80%;
+    margin-left: 10%;
+    cursor: pointer;
+}

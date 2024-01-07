@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in to Spotify</title>
+    <link rel="stylesheet" href="sign-in spotify.css">
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <h2 id="heading"><img src="https://i.pinimg.com/originals/f0/5c/bc/f05cbc8c0f8b075d2b4f1f68fee49649.jpg" alt="">
+            Spotify </h2>
+            <a href="file:///C:/Users/ummed%20singh%20mali/Desktop/spotify/spotify.html" class="goBack">Go Back to Website</a>
+        <button class="logInbtn" id="logInbtn">Log In Facebook</button>
+        <button class="logInbtn" id="logInbtn" style="background-color: red;">Log In Google</button>
+
+        <form id="formContainer" method="get">
+            <input type="text" name="username" id="name" placeholder="Name" required>
+            <input type="text" name="gmail" id="gmail" placeholder="Gmail"
+                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+            <div class="verifyPass">
+                <input type="text" name="password" id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{2,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                <input type="button" id="verify" value="Verify Gmail">
+            </div>
+            <input type="text" name="otp" id="otp" placeholder="OTP on your deskop" required>
+            <div class="termsConditon">
+                <input type="checkbox" required><a href="#">Terms and Condition</a>
+            </div>
+            <div>
+                
+
+                <!-- <button class="signbtn" id="signbtn">Sign Up</button> -->
+                <button type="submit" name="submit" id="login" class="signbtn" id="signbtn" form="formContainer"
+                    formmethod="get" formenctype="text/plain">Submit
+                </button>
+                
+            </div>
+        </form>
+        
+        <p class="resetpassword" id="resetpassword">Reset Password</p>
+        <p class="resetpassword" id="setting">Setting</p>
+
+
+    </div>
+
+    <script src="sign-in spotify.js"></script>
+</body>
+
+</html>
